@@ -109,7 +109,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1527282386297950370": {
     "enabled": true,
@@ -164,7 +165,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1527626485433634906": {
     "enabled": false,
@@ -252,7 +254,8 @@
       "avatar": null,
       "banner": "https://cdn.discordapp.com/attachments/1534238634344189962/1547989088374882374/holliezewski.jpg?ex=6aa56cae&is=6aa41b2e&hm=8498ed2c825294ed9a5776b210df63c7f042bbe0bb3237efcd4550c0625f35d1&"
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1529880941781319941": {
     "enabled": false,
@@ -318,18 +321,6 @@
         ]
       },
       {
-        "id": "1430115434333732864",
-        "permissions": [
-          "link_access"
-        ]
-      },
-      {
-        "id": "1352936210028560435",
-        "permissions": [
-          "full_access"
-        ]
-      },
-      {
         "id": "984380275666587728",
         "permissions": [
           "assign_dangerous_roles"
@@ -348,18 +339,9 @@
         ]
       },
       {
-        "id": "802170402557394996",
+        "id": "1511598725590552687",
         "permissions": [
-          "create_role",
-          "assign_dangerous_roles",
-          "link_access",
-          "kick_members"
-        ]
-      },
-      {
-        "id": "1385811616703971489",
-        "permissions": [
-          "assign_dangerous_roles"
+          "full_access"
         ]
       }
     ],
@@ -398,7 +380,9 @@
       "all": false,
       "bypassCategories": [
         "1534238361059856454",
-        "1531291037761273989"
+        "1531291037761273989",
+        "1548743258710999062",
+        "1548718268607369316"
       ]
     },
     "antiSpam": {
@@ -432,17 +416,14 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": [
+      "1497283975444566116"
+    ]
   },
   "1531273847456796844": {
     "enabled": true,
     "whitelist": [
-      {
-        "id": "1028925466138128425",
-        "permissions": [
-          "full_access"
-        ]
-      },
       {
         "id": "1500114164591362128",
         "permissions": [
@@ -564,6 +545,38 @@
         "permissions": [
           "full_access"
         ]
+      },
+      {
+        "id": "1501439880440582226",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "710034409214181396",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1028925466138128425",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1067880912538304583",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1187944269277831178",
+        "permissions": [
+          "ban_members",
+          "kick_members",
+          "assign_dangerous_roles"
+        ]
       }
     ],
     "logs": {
@@ -573,7 +586,7 @@
       },
       "profile": {
         "enabled": true,
-        "channelId": "1531738716798980328"
+        "channelId": "1558871656079040685"
       },
       "voice": {
         "enabled": false,
@@ -581,7 +594,7 @@
       },
       "member": {
         "enabled": true,
-        "channelId": "1531738716798980328"
+        "channelId": "1558871598990368889"
       },
       "boost": {
         "enabled": true,
@@ -594,7 +607,7 @@
       "categoryId": "1532113759668146357",
       "createdChannels": []
     },
-    "autoRole": null,
+    "autoRole": "1531298069230911670",
     "antiLink": {
       "discord": false,
       "image": false,
@@ -616,7 +629,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1518611133081194707": {
     "enabled": false,
@@ -639,7 +653,34 @@
         "channelId": null
       }
     },
-    "afk": {}
+    "afk": {},
+    "prefix": "X",
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "bypass": []
   },
   "1531735404280287505": {
     "enabled": true,
@@ -669,7 +710,7 @@
     "afk": {}
   },
   "1530993667769237545": {
-    "enabled": true,
+    "enabled": false,
     "whitelist": [
       {
         "id": "1028925466138128425",
@@ -715,6 +756,18 @@
       },
       {
         "id": "1536391699415302184",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1536971247206793307",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1540966627477299230",
         "permissions": [
           "full_access"
         ]
@@ -770,7 +823,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1525875041743667390": {
     "enabled": false,
@@ -873,7 +927,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1511417394218930440": {
     "enabled": false,
@@ -927,7 +982,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1507180713424719973": {
     "enabled": false,
@@ -1078,7 +1134,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1498179815336054836": {
     "enabled": true,
@@ -1142,7 +1199,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1530509508013588551": {
     "enabled": false,
@@ -1252,7 +1310,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1527331868460978447": {
     "enabled": false,
@@ -1306,20 +1365,13 @@
       {
         "id": "1496355947449155795",
         "permissions": [
-          "create_channel",
-          "assign_dangerous_roles"
+          "full_access"
         ]
       },
       {
         "id": "710034409214181396",
         "permissions": [
           "full_access"
-        ]
-      },
-      {
-        "id": "1345629328947417149",
-        "permissions": [
-          "assign_dangerous_roles"
         ]
       },
       {
@@ -1338,6 +1390,24 @@
         "id": "1037108339538153584",
         "permissions": [
           "full_access"
+        ]
+      },
+      {
+        "id": "1199501391819972699",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1312940361294942219",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1487778033371975801",
+        "permissions": [
+          "create_role"
         ]
       }
     ],
@@ -1387,7 +1457,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1524305151215665172": {
     "enabled": false,
@@ -1655,7 +1726,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1536972188022866001": {
     "enabled": true,
@@ -1730,7 +1802,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1537835834743717918": {
     "enabled": true,
@@ -1938,7 +2011,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1388165930680582266": {
     "enabled": true,
@@ -1969,7 +2043,7 @@
     },
     "autoRole": "1390583116904796160",
     "antiLink": {
-      "discord": false,
+      "discord": true,
       "image": false,
       "all": false,
       "bypassCategories": []
@@ -1987,7 +2061,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1539440429273981048": {
     "enabled": true,
@@ -2049,7 +2124,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1539645567045730315": {
     "enabled": true,
@@ -2229,6 +2305,24 @@
         "permissions": [
           "full_access"
         ]
+      },
+      {
+        "id": "1385668620310413436",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1331130555139624981",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1321209679543533638",
+        "permissions": [
+          "full_access"
+        ]
       }
     ],
     "logs": {
@@ -2275,7 +2369,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1486781387762569226": {
     "enabled": true,
@@ -2400,14 +2495,15 @@
       "timeoutMs": null
     },
     "antiBot": true,
-    "premium": false,
+    "premium": true,
     "embedDraft": null,
     "prefix": "!x",
     "perServerProfile": {
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1492432123267649548": {
     "enabled": true,
@@ -2517,7 +2613,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1373597197270253638": {
     "enabled": true,
@@ -2536,6 +2633,60 @@
       },
       {
         "id": "1028609652440698960",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "914817148424183828",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1521039853670760619",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1277887765572354061",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1203514684326805524",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "974964124587003954",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1285558009367363686",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "909781196622397471",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1317428456429981757",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1450060292716494940",
         "permissions": [
           "full_access"
         ]
@@ -2570,22 +2721,25 @@
       "discord": false,
       "image": false,
       "all": false,
-      "bypassCategories": []
+      "bypassCategories": [
+        "1373608716837978162"
+      ]
     },
     "antiSpam": {
-      "enabled": false,
-      "threshold": null,
-      "timeoutMs": null
+      "enabled": true,
+      "threshold": 15,
+      "timeoutMs": 604800000
     },
-    "antiBot": true,
-    "premium": false,
+    "antiBot": false,
+    "premium": true,
     "embedDraft": null,
     "prefix": "!x",
     "perServerProfile": {
-      "avatar": null,
-      "banner": null
+      "avatar": "https://cdn.discordapp.com/ephemeral-attachments/1548690203194036280/1553709189082382336/cruz_1.jpg?ex=6aba3bf1&is=6ab8ea71&hm=472bc38d82199850ec8bad21c14a9380a5d5bf552c63e48dbc137b06c65eb666&",
+      "banner": "https://cdn.discordapp.com/ephemeral-attachments/1548690203194036281/1553709256337915975/cruz.png?ex=6aba3c01&is=6ab8ea81&hm=e485858228a2ca64f2ea95ef6fd1792495c61ee8d84806c7cc2d7544866002fe&"
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1329338628815589467": {
     "enabled": false,
@@ -2724,7 +2878,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1492023267962388573": {
     "enabled": true,
@@ -2773,7 +2928,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1542876009005588540": {
     "enabled": true,
@@ -2943,7 +3099,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1543686736586997780": {
     "enabled": true,
@@ -3035,7 +3192,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1537309521192681522": {
     "enabled": true,
@@ -3097,10 +3255,11 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1539469134138708071": {
-    "enabled": false,
+    "enabled": true,
     "whitelist": [
       {
         "id": "1028925466138128425",
@@ -3251,6 +3410,54 @@
         "permissions": [
           "full_access"
         ]
+      },
+      {
+        "id": "1551876731458027544",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "624455959023976448",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1497569851718500512",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "557628352828014614",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "793143330455420938",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "184405311681986560",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1256322343249383566",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1395701700626481203",
+        "permissions": [
+          "full_access"
+        ]
       }
     ],
     "logs": {
@@ -3267,8 +3474,8 @@
         "channelId": null
       },
       "member": {
-        "enabled": false,
-        "channelId": null
+        "enabled": true,
+        "channelId": "1544165685792473108"
       }
     },
     "afk": {},
@@ -3279,17 +3486,17 @@
     },
     "autoRole": "1540719151688188007",
     "antiLink": {
-      "discord": false,
+      "discord": true,
       "image": false,
       "all": false,
       "bypassCategories": []
     },
     "antiSpam": {
-      "enabled": true,
+      "enabled": false,
       "threshold": 20,
       "timeoutMs": 60000
     },
-    "antiBot": false,
+    "antiBot": true,
     "premium": false,
     "embedDraft": null,
     "prefix": "!x",
@@ -3297,7 +3504,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1544027408158425188": {
     "enabled": false,
@@ -3423,7 +3631,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1544768610231390260": {
     "enabled": true,
@@ -3517,7 +3726,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1536349382453108738": {
     "enabled": false,
@@ -3566,7 +3776,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1508737041826054268": {
     "enabled": true,
@@ -3622,7 +3833,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1545132585913557042": {
     "enabled": true,
@@ -3711,7 +3923,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1545465110263242922": {
     "enabled": true,
@@ -3767,7 +3980,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1545508848247378021": {
     "enabled": true,
@@ -3904,12 +4118,6 @@
         ]
       },
       {
-        "id": "1497283975444566116",
-        "permissions": [
-          "full_access"
-        ]
-      },
-      {
         "id": "1501439880440582226",
         "permissions": [
           "full_access"
@@ -3961,6 +4169,62 @@
         "permissions": [
           "full_access"
         ]
+      },
+      {
+        "id": "1028925466138128425",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1067880912538304583",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1497283975444566116",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1366356276623183892",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "808253005081477120",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1540966627477299230",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1187944269277831178",
+        "permissions": [
+          "kick_members",
+          "ban_members",
+          "assign_dangerous_roles"
+        ]
+      },
+      {
+        "id": "1450060292716494940",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1526283357607039047",
+        "permissions": [
+          "full_access"
+        ]
       }
     ],
     "logs": {
@@ -3970,7 +4234,7 @@
       },
       "profile": {
         "enabled": true,
-        "channelId": "1545562403326922772"
+        "channelId": "1557770741083148448"
       },
       "voice": {
         "enabled": false,
@@ -3981,19 +4245,37 @@
         "channelId": "1545562403326922772"
       }
     },
-    "afk": {},
+    "afk": {
+      "1373460022306279444": {
+        "reason": "No reason",
+        "timestamp": 1791348054457
+      }
+    },
     "joinToCreate": {
-      "triggerChannelId": null,
-      "categoryId": null,
-      "createdChannels": []
+      "triggerChannelId": "1554884362409869312",
+      "categoryId": "1545549418730623038",
+      "createdChannels": [
+        "1557009866214613052",
+        "1557011227375435827",
+        "1557015595537535047",
+        "1557016103174152324",
+        "1557328863993012224",
+        "1557328893059407922",
+        "1557328900563009558"
+      ]
     },
     "autoRole": null,
     "antiLink": {
       "discord": false,
       "image": false,
-      "all": false,
+      "all": true,
       "bypassCategories": [
-        "1545548532247957524"
+        "1545548532247957524",
+        "1545547295549034536",
+        "1545549334978895992",
+        "1545549418730623038",
+        "1545549845488476210",
+        "1545548943016853635"
       ]
     },
     "antiSpam": {
@@ -4004,20 +4286,23 @@
     "antiBot": true,
     "premium": true,
     "embedDraft": {
-      "author": "𝗔𝘀𝗰𝗲𝗻𝗱 #𝗧𝗔𝗚𝗟𝗔𝗠𝗜𝗚 𝗪𝗮𝗿𝗻𝗶𝗻𝗴 𝗦𝘆𝘀𝘁𝗲𝗺",
-      "description": "# * 𝑶𝒑𝒔𝒔 𝒎𝒂𝒔𝒂𝒎𝒂 𝒂𝒏𝒈 𝒎𝒂𝒌𝒊𝒑𝒂𝒈 𝒂𝒘𝒂𝒚 𝒉𝒂, 𝒘𝒂𝒈 𝒌𝒂 𝒏𝒈𝒂𝒏𝒈 𝒎𝒂𝒌𝒖𝒍𝒊𝒕!",
-      "footer": "𝑨𝒔𝒄𝒆𝒏𝒅 #𝗧𝗔𝗚𝗟𝗔𝗠𝗜𝗚",
+      "author": "Ascend #LARPER",
+      "description": "Hindi ko rin alam e, server bot lang ako dito e",
+      "footer": "Partnership Requirements.",
       "color": null,
-      "thumbnail": "https://cdn.discordapp.com/attachments/1545729086674964490/1548699421993214002/Ascend_silver_logo.png?ex=6aa8023b&is=6aa6b0bb&hm=c7acf323d4bd0fc4dd67403b4b42b9532bf8439c1b8860b78e56a4bb11ded101&",
+      "thumbnail": "https://cdn.discordapp.com/attachments/1554602026510589962/1555893098507141150/ascend_logo.png?backend=b2&ex=6ac22ddd&is=6ac0dc5d&hm=311d60d29b138f9cdb287bde927f68142b0fb8c2bc58403331d416223e032915&",
       "image": null,
       "channelId": null
     },
-    "prefix": ".w",
+    "prefix": "x",
     "perServerProfile": {
-      "avatar": "https://cdn.discordapp.com/attachments/1545729086674964490/1548693163915350047/Ascend_silver_logo.png?ex=6aa7fc67&is=6aa6aae7&hm=b871a9363eec1c93e07f03b7846d0474b058602047b671c216ee9f739201a461&",
+      "avatar": "https://cdn.discordapp.com/attachments/1545729086674964490/1554707401729642618/ascend_logo.png?backend=b2&ex=6abddd99&is=6abc8c19&hm=bb7edfb845be1ea39bc6699c31a11df1931b4b0b97fc9560cf2090a029e94960&",
       "banner": "https://cdn.discordapp.com/attachments/1545729086674964490/1549082908348649614/Ascend_is_life.png?ex=6aa96761&is=6aa815e1&hm=b28ff1f65e7b4fc15c6f038eaa3b2842a91dfcbc2337a42f9916428e209adf7c&"
     },
-    "embedColor": 16777215
+    "embedColor": 16777215,
+    "bypass": [
+      "1540966627477299230"
+    ]
   },
   "1545614453804892172": {
     "enabled": false,
@@ -4066,7 +4351,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1543933356260069486": {
     "enabled": false,
@@ -4217,7 +4503,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1546142730831274035": {
     "enabled": true,
@@ -4317,6 +4604,12 @@
         "permissions": [
           "full_access"
         ]
+      },
+      {
+        "id": "987228002649768037",
+        "permissions": [
+          "full_access"
+        ]
       }
     ],
     "logs": {
@@ -4363,7 +4656,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1547848347656790118": {
     "enabled": true,
@@ -4427,6 +4721,23 @@
         "permissions": [
           "full_access"
         ]
+      },
+      {
+        "id": "1006792289168920646",
+        "permissions": [
+          "kick_members",
+          "delete_role",
+          "create_role",
+          "delete_channel",
+          "create_channel",
+          "link_access"
+        ]
+      },
+      {
+        "id": "384762295643013130",
+        "permissions": [
+          "full_access"
+        ]
       }
     ],
     "logs": {
@@ -4447,7 +4758,12 @@
         "channelId": "1548146086005317793"
       }
     },
-    "afk": {},
+    "afk": {
+      "1551211002920439908": {
+        "reason": "No reason",
+        "timestamp": 1790353671071
+      }
+    },
     "joinToCreate": {
       "triggerChannelId": "1547850667295506472",
       "categoryId": "1547850666045612082",
@@ -4465,7 +4781,7 @@
       "threshold": null,
       "timeoutMs": null
     },
-    "antiBot": false,
+    "antiBot": true,
     "premium": true,
     "embedDraft": null,
     "prefix": "!x",
@@ -4473,7 +4789,8 @@
       "avatar": "https://cdn.discordapp.com/attachments/1547848620399661080/1548694351616413798/C056BEEC-3FD5-4E3B-9EFC-CB89F38E8CA9.png?ex=6aa7fd82&is=6aa6ac02&hm=83e6dfe29442f4cf0412f7c7c129ecef9934aac9de5a1707729afe8c1dab9bd4&",
       "banner": "https://cdn.discordapp.com/attachments/1547848620399661080/1548694573566402600/IMG_7074.png?ex=6aa7fdb7&is=6aa6ac37&hm=2d6f23b69c799a85f74c9bca101e3b5d8b80fcae81fd1c0b2c98589a26739a61&"
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1531590717187686431": {
     "enabled": false,
@@ -4522,7 +4839,8 @@
       "avatar": null,
       "banner": null
     },
-    "embedColor": null
+    "embedColor": null,
+    "bypass": []
   },
   "1369709773380911104": {
     "enabled": false,
@@ -4571,7 +4889,8 @@
     "perServerProfile": {
       "avatar": null,
       "banner": null
-    }
+    },
+    "bypass": []
   },
   "1443643730295914639": {
     "enabled": false,
@@ -4669,7 +4988,8 @@
     "perServerProfile": {
       "avatar": null,
       "banner": null
-    }
+    },
+    "bypass": []
   },
   "1513933404708536440": {
     "enabled": false,
@@ -4718,7 +5038,8 @@
     "perServerProfile": {
       "avatar": null,
       "banner": null
-    }
+    },
+    "bypass": []
   },
   "1513936308337119414": {
     "enabled": false,
@@ -4767,7 +5088,8 @@
     "perServerProfile": {
       "avatar": null,
       "banner": null
-    }
+    },
+    "bypass": []
   },
   "1549079140127211550": {
     "enabled": false,
@@ -4779,6 +5101,1720 @@
         ]
       }
     ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1544618962069889116": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "235148962103951360",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1123408727819702292",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1345904547037577318",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1196991426031013888",
+        "permissions": [
+          "create_role"
+        ]
+      },
+      {
+        "id": "853327905357561948",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "710034409214181396",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1470294780696199332",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": true,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "bypass": []
+  },
+  "1549047699997991034": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1501439880440582226",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "231012127584813058",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "929405483813576806",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1526283357607039047",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": true,
+        "channelId": "1549047700928987157"
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "bypass": []
+  },
+  "1549063150098321440": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1416080028516749325",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "762217899355013120",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1472535633007349843",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {
+      "1524803726815133767": {
+        "reason": "No reason",
+        "timestamp": 1791120916779
+      }
+    },
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": false,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "bypass": []
+  },
+  "1537354749257719848": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1382688004887543838",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1398625439945326664",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": true,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": true,
+      "threshold": 20,
+      "timeoutMs": 604800000
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "bypass": []
+  },
+  "1548690675359293553": {
+    "enabled": false,
+    "whitelist": [
+      {
+        "id": "1302211351468445717",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": "?",
+    "premium": true,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "bypass": []
+  },
+  "1550562254775124009": {
+    "enabled": true,
+    "whitelist": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": true,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": 5,
+      "timeoutMs": 60000
+    },
+    "antiBot": true,
+    "prefix": "?",
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    },
+    "bypass": []
+  },
+  "1492501648042492085": {
+    "enabled": true,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": true,
+      "threshold": 5,
+      "timeoutMs": 604800000
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1496179345939763250": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1548939261208829954": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1355193676560601160",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "997104618142187550",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "806453436878028821",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1388047047718080564",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "956167885024264214",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1196964057287241741",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1461158379044081935": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1547154542230118420": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1494480935226445928",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1216024830462132345",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1538250992779526188",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1512095634268885072",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "893031079605317653",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1028609652440698960",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "493716749342998541",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "651095740390834176",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "628400349979344919",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "235148962103951360",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1277887765572354061",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "557628352828014614",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1332353801373487226",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1381170840787226726",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1450060292716494940",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": true,
+      "threshold": 10,
+      "timeoutMs": 604800000
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1310627981479383091": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1303630309929254955",
+        "permissions": [
+          "create_channel",
+          "create_role",
+          "delete_channel",
+          "delete_role",
+          "kick_members",
+          "ban_members",
+          "assign_dangerous_roles"
+        ]
+      },
+      {
+        "id": "557628352828014614",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "330416853971107840",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": true,
+      "image": true,
+      "all": true,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": true,
+      "threshold": 5,
+      "timeoutMs": 604800000
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1553721477054988288": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "758684251813576745",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1433450668651319347",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1497283975444566116",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [
+      "1497283975444566116"
+    ],
+    "logs": {
+      "message": {
+        "enabled": true,
+        "channelId": "1553758046260559912"
+      },
+      "profile": {
+        "enabled": true,
+        "channelId": "1553758183967694920"
+      },
+      "voice": {
+        "enabled": true,
+        "channelId": "1553758133065875567"
+      },
+      "member": {
+        "enabled": true,
+        "channelId": "1553758183967694920"
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": true,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": ",",
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1488104380560576556": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1344278215144767569",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1463858846404579450",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": true,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": true,
+      "threshold": 15,
+      "timeoutMs": 604800000
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1544619813765259317": {
+    "enabled": true,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1481936350008709220": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1452571587185213440",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "808253005081477120",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1526283357607039047",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1536391699415302184",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [
+      "1526283357607039047"
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1551899040944365658": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1557253084445548634": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": true,
+        "channelId": "1557772424601403435"
+      },
+      "profile": {
+        "enabled": true,
+        "channelId": "1557772176113930371"
+      },
+      "voice": {
+        "enabled": true,
+        "channelId": "1557772327368917022"
+      },
+      "member": {
+        "enabled": true,
+        "channelId": "1557772176113930371"
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1558142507261497395": {
+    "enabled": false,
+    "whitelist": [
+      {
+        "id": "944464510104780800",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "702151670196338708",
+        "permissions": [
+          "create_channel"
+        ]
+      },
+      {
+        "id": "762217899355013120",
+        "permissions": [
+          "create_channel",
+          "link_access"
+        ]
+      },
+      {
+        "id": "155149108183695360",
+        "permissions": [
+          "create_channel"
+        ]
+      },
+      {
+        "id": "235148962103951360",
+        "permissions": [
+          "link_access",
+          "create_channel"
+        ]
+      }
+    ],
+    "bypass": [
+      "702151670196338708",
+      "762217899355013120"
+    ],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": "1558143349758759023"
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": true,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": true,
+      "threshold": 15,
+      "timeoutMs": 300000
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1446164583168606290": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1539338596648099900": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1558818129331752962": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "384762295643013130",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "762217899355013120",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "712011923176030229",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "235148962103951360",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": true,
+        "channelId": "1559133250302115900"
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": true,
+        "channelId": "1559132956205781054"
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": true,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": "https://cdn.discordapp.com/attachments/1559094807735967790/1559113902736810044/IMG_7692.jpg?ex=6acde579&is=6acc93f9&hm=4dc61406c417a40bff0de9d7a3d74bbdf8c9904d9f2a89d8d193aaf5dcb9f575&",
+      "banner": "https://cdn.discordapp.com/attachments/1559094807735967790/1559113086802075729/B14B4285-7C47-43B1-8BEA-40E56DACE820.gif?ex=6acde4b6&is=6acc9336&hm=a0d7ce7b2cb23d0e3abc135aeee814dad5f94a93c53a0fe084a76929f1d19d14&"
+    }
+  },
+  "1559085686127202314": {
+    "enabled": true,
+    "whitelist": [
+      {
+        "id": "1452324810574266470",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1497283975444566116",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1082631778298241054",
+        "permissions": [
+          "full_access"
+        ]
+      },
+      {
+        "id": "1465944191371837453",
+        "permissions": [
+          "full_access"
+        ]
+      }
+    ],
+    "bypass": [
+      "1497283975444566116"
+    ],
+    "logs": {
+      "message": {
+        "enabled": true,
+        "channelId": "1559130664719093770"
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": "1559130946354282607",
+      "categoryId": "1559085686127202316",
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": false,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1559420504031629394": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "1556206411594072116": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
+    "logs": {
+      "message": {
+        "enabled": false,
+        "channelId": null
+      },
+      "profile": {
+        "enabled": false,
+        "channelId": null
+      },
+      "voice": {
+        "enabled": false,
+        "channelId": null
+      },
+      "member": {
+        "enabled": false,
+        "channelId": null
+      }
+    },
+    "afk": {},
+    "joinToCreate": {
+      "triggerChannelId": null,
+      "categoryId": null,
+      "createdChannels": []
+    },
+    "autoRole": null,
+    "antiLink": {
+      "discord": false,
+      "image": false,
+      "all": false,
+      "bypassCategories": []
+    },
+    "antiSpam": {
+      "enabled": false,
+      "threshold": null,
+      "timeoutMs": null
+    },
+    "antiBot": true,
+    "prefix": null,
+    "premium": false,
+    "embedColor": null,
+    "embedDraft": null,
+    "perServerProfile": {
+      "avatar": null,
+      "banner": null
+    }
+  },
+  "993809360608305162": {
+    "enabled": false,
+    "whitelist": [],
+    "bypass": [],
     "logs": {
       "message": {
         "enabled": false,
