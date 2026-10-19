@@ -117,6 +117,24 @@ app.get('/', (req, res) => {
     res.json({ status: 'online', bot: client.user?.tag || 'Not ready' });
 });
 
+function getBotStats() {
+    let users = 0;
+    client.guilds.cache.forEach(g => users += g.memberCount || 0);
+    return {
+        servers: client.guilds.cache.size,
+        users,
+        commands: slashCommands.length,
+    };
+}
+
+app.get('/stats', (req, res) => {
+    res.json(getBotStats());
+});
+
+app.get('/api/stats', (req, res) => {
+    res.json(getBotStats());
+});
+
 app.get('/api/members', async (req, res) => {
     try {
         const guild = client.guilds.cache.get(process.env.GUILD_ID);
