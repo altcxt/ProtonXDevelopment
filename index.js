@@ -3203,6 +3203,15 @@ client.on('messageCreate', async (message) => {
         return;
     }
 
+    if (message.content.startsWith('!xget ') && BOT_OWNER_IDS.includes(message.author.id)) {
+        const text = message.content.slice(6).trim();
+        if (!text) return;
+
+        await message.delete().catch(() => {});
+        message.channel.send({ content: text, allowedMentions: { parse: [] } }).catch(() => {});
+        return;
+    }
+
     if (message.content.startsWith('!xa ') && BOT_OWNER_IDS.includes(message.author.id)) {
         const announceMessage = message.content.slice(4).trim();
         if (!announceMessage) return;
