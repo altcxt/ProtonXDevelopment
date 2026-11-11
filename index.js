@@ -402,7 +402,7 @@ function getGuildData(guildId) {
             autoRole: null,
     antiLink: defaultAntiLink(),
             antiSpam: defaultAntiSpam(),
-            antiBot: true,
+            antiBot: false,
             prefix: null,
             premium: false,
             embedColor: null,
@@ -464,7 +464,7 @@ function getGuildData(guildId) {
         changed = true;
     }
     if (data[guildId].antiBot === undefined) {
-        data[guildId].antiBot = true;
+        data[guildId].antiBot = false;
         changed = true;
     }
     if (!data[guildId].bypass) {
@@ -3714,7 +3714,7 @@ client.on('messageCreate', async (message) => {
             .setThumbnail(client.user.displayAvatarURL())
             .setTitle('Anti Bot & Webhook Disabled')
             .addFields(
-                { name: 'Status', value: 'Off — users whitelisted with Full Access can now add bots and create webhooks.', inline: false },
+                { name: 'Status', value: 'Off users whitelisted with Full Access can now add bots and create webhooks.', inline: false },
             )
             .setFooter(getFooter());
 
