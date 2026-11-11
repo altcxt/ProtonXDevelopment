@@ -3678,7 +3678,7 @@ client.on('messageCreate', async (message) => {
         return;
     }
 
-    if (command === 'antibot-on') {
+    if (command === 'antibot-on' || command === 'abot-on') {
         if (!isOwner) {
             return message.reply({ embeds: [simpleEmbed('Only the server owner can use this command.')] });
         }
@@ -3692,7 +3692,7 @@ client.on('messageCreate', async (message) => {
             .setThumbnail(client.user.displayAvatarURL())
             .setTitle('Anti Bot & Webhook Enabled')
             .addFields(
-                { name: 'Status', value: 'On — whitelisted users are also blocked from adding bots or creating webhooks.', inline: false },
+                { name: 'Status', value: 'On whitelisted users are also blocked from adding bots or creating webhooks.', inline: false },
             )
             .setFooter(getFooter());
 
@@ -3700,7 +3700,7 @@ client.on('messageCreate', async (message) => {
         return;
     }
 
-    if (command === 'antibot-off') {
+    if (command === 'antibot-off' || command === 'abot-off') {
         if (!isOwner) {
             return message.reply({ embeds: [simpleEmbed('Only the server owner can use this command.')] });
         }
