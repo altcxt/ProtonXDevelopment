@@ -840,6 +840,45 @@ client.once('ready', async () => {
 client.on('guildCreate', () => updateStreamingStatus());
 client.on('guildDelete', () => updateStreamingStatus());
 
+const LEFT_GRACE_MS = 7 * 24 * 60 * 60 * 1000;
+
+client.on('guildDelete', (guild) => {
+    if (guild.available === false) return;
+    if (!data[guild.id]) return;
+    data[guild.id].leftAt = Date.now();
+    saveData(data);
+});
+
+client.on('guildCreate', (guild) => {
+    const gd = data[guild.id];
+    if (!gd || !gd.leftAt) return;
+
+    if (Date.now() - gd.leftAt > LEFT_GRACE_MS) {
+        const wasPremium = !!gd.premium;
+        delete data[guild.id];
+        const fresh = getGuildData(guild.id);
+        fresh.premium = wasPremium;
+        saveData(data);
+    } else {
+        delete gd.leftAt;
+        saveData(data);
+    }
+});
+
+setInterval(() => {
+    let changed = false;
+    for (const guildId of Object.keys(data)) {
+        if (guildId === 'global') continue;
+        const gd = data[guildId];
+        if (!gd || !gd.leftAt || gd.premium) continue;
+        if (Date.now() - gd.leftAt > LEFT_GRACE_MS) {
+            delete data[guildId];
+            changed = true;
+        }
+    }
+    if (changed) saveData(data);
+}, 24 * 60 * 60 * 1000);
+
 client.on('guildCreate', async (guild) => {
     let inviteURL = null;
     try {
